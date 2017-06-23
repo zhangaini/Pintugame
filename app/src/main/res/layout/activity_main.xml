@@ -76,11 +76,38 @@
 
     </android.support.v7.widget.GridLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_pic"
-        android:layout_gravity="center"
-        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/yangtu"
+            />
+
+        <Button
+            android:id="@+id/begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/buttonbg"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/text_time"
+            android:layout_below="@+id/begin"
+             android:layout_marginLeft="95dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/buttonbg"
+            />
+    </RelativeLayout>
+
 
 </LinearLayout>
