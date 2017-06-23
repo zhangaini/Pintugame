@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhang.pintugame.MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="300dp"
+        android:layout_height="360dp"
+        android:id="@+id/my_group_pic"
+        app:columnCount="3"
+        app:rowCount="3"
+        >
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_1"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_2"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_3"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_4"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_5"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_6"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_7"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_8"
+            />
+        <ImageView
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_9"
+            />
+
+
+
+
+    </android.support.v7.widget.GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_pic"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
